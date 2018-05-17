@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">感情診斷室</string>
+    <string name="warning">警告標語頁</string>
+    <string name="ask">問問題</string>
+
+    <string name="facebook_app_id">224902644925388</string>
+    <string name="fb_login_protocol_scheme">fb224902644925388</string>
+</resources>

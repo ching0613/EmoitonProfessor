@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "186576901398",
+    "firebase_url": "https://emotionprofessor.firebaseio.com",
+    "project_id": "emotionprofessor",
+    "storage_bucket": "emotionprofessor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186576901398:android:ae94f9cbc5f7eea8",
+        "android_client_info": {
+          "package_name": "com.example.wen_cheng.emoitonprofessor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186576901398-sn8j3m25j6tgvv90ssoodvlsllnus2co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvy4fwhEjE6eTn1dSAgOHEUaPRDppimlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

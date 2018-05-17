@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.wen_cheng.emoitonprofessor.personalityActivity">
+
+
+    <TextView
+        android:id="@+id/Quiz_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:text="Quiz" />
+
+    <TextView
+        android:id="@+id/Quiz_content"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/Quiz_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="22dp"
+        android:autoText="true"
+        android:text="content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/option_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Quiz_content"
+        android:layout_centerHorizontal="true"
+        android:background="#DDDDFF"
+        android:onClick="bclick"
+        android:text="option A"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/option_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/option_A"
+        android:layout_below="@+id/option_A"
+        android:layout_marginTop="15dp"
+        android:background="#DDDDFF"
+        android:onClick="bclick"
+        android:text="option B"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/option_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/option_B"
+        android:layout_below="@+id/option_B"
+        android:layout_marginTop="15dp"
+        android:background="#DDDDFF"
+        android:onClick="bclick"
+        android:text="option C"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/option_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/option_C"
+        android:layout_below="@+id/option_C"
+        android:layout_marginTop="15dp"
+        android:background="#DDDDFF"
+        android:onClick="bclick"
+        android:text="option D"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Quiz_content"
+        android:layout_below="@+id/option_D"
+        android:text="" />
+</RelativeLayout>

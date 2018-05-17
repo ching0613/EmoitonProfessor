@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.wen_cheng.emoitonprofessor.ResultActivity">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/mChart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/gotoqes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mChart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#45A6D9"
+        android:onClick="bclick"
+        android:text="@string/ask" />
+
+</RelativeLayout>
