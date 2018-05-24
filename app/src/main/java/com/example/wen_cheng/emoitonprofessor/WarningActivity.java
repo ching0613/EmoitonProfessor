@@ -51,8 +51,13 @@ public class WarningActivity extends AppCompatActivity {
         FadeTransition();
         setContentView(R.layout.activity_warning);
         audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
-        callbackManager = CallbackManager.Factory.create();
-        FaceBookLogin();
+        if(fb_id != null){
+            startActivity(new Intent(WarningActivity.this,
+                    personalityActivity.class));
+        }else {
+            callbackManager = CallbackManager.Factory.create();
+            FaceBookLogin();
+        }
     }
 
     /* publish_actions:發佈推文權限。
